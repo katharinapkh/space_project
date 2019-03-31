@@ -1,10 +1,15 @@
 body {
-  box-sizing: border-box;
   background: url("../images/stars.png") repeat;
   color: white;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -26,7 +31,7 @@ header {
   background: url("../images/IMG_BG.png") no-repeat 0 0;
   background-size: contain;
   min-height: 920px;
-  padding: 21px 10px;
+  padding: 21px 10px 157px 10px;
   overflow: hidden;
 }
 
@@ -42,10 +47,12 @@ header {
 .nav_bar a:hover {
   border-bottom: 2px solid white;
   padding-bottom: 20px;
+  transition: 0.5s;
 }
 
 .nav_bar {
   float: right;
+  line-height: 2.6;
 }
 
 .nav_bar h3 {
@@ -81,9 +88,10 @@ header {
 }
 
 .info_block {
-  background: url("../images/img_moon.png") no-repeat -290px 0;
-  background-size: contain;
-  min-height: 960px;
+  background: url("../images/img_moon.png") no-repeat -16em 0;
+  min-height: 1060px;
+  position: relative;
+  overflow: hidden;
 }
 
 .info_block h2 {
@@ -133,7 +141,7 @@ header {
   margin-right: 160px;
 }
 
-.stripe button {
+button {
   font-family: 'Roboto', sans-serif;
   background: none;
   border: none;
@@ -144,7 +152,7 @@ header {
   color: #ffffff;
   outline: none;
 }
-.stripe button:hover {
+button:hover {
   cursor: pointer;
   border-bottom: 1px solid white;
   padding-bottom: 5px;
@@ -159,15 +167,12 @@ header {
   background-color: #9a9a9a;
 }
 
-.line:hover {
-  background-color: white;
-}
-
 .flex_planet {
   position: relative;
   display: flex;
   justify-content: space-between;
   min-height: 250px;
+  margin-bottom: 84px;
 }
 
 .flex_planet p {
@@ -223,4 +228,19 @@ div.category_item:last-child {
 
 .ellipse:hover {
   background-color: white;
+  cursor: pointer;
+}
+
+.info_button {
+  margin-bottom: 274px;
+}
+.cosmonaut {
+  position: absolute;
+  top: 47em;
+  right: -3em;
+  z-index: -3;
+}
+
+.trip_videoblog h2 {
+width: 50%;
 }
