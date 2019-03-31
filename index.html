@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,500,700" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Space Project</title>
+  <script src="js/script.js"></script>
 </head>
 <body>
 <header>
 <div class="wrapper">
     <img src="images/LOGO.svg" alt="logo">
   <div class="nav_bar">
-    <a href="#"><h3>about</h3></a>
-    <a href="#"><h3>process</h3></a>
-    <a href="#"><h3>our station</h3></a>
-    <a href="#"><h3>book a trip</h3></a>
+    <a href="#about" class="scrollto"><h3>about</h3></a>
+    <a href="#process" class="scrollto"><h3>process</h3></a>
+    <a href="#our_station" class="scrollto"><h3>our station</h3></a>
+    <a href="#" class="scrollto"><h3>book a trip</h3></a>
   </div>
   <div class="title">
     <h1>SPACE ODYSSEY</h1>
     <p>your best ever trip</p>
-    <a href="#" class="scroll">
+    <a href="#process" class="scroll scrollto">
       <span>learn more</span>
       <img src="images/arrow-down.svg" alt="arrow">
     </a>
   </div>
 </div>
 </header>
-<section class="info_block">
+<section class="info_block" id="about">
   <div class="wrapper">
 <h2>WE PROPOSE YOU</h2>
     <div class="flex_icons">
@@ -63,7 +65,7 @@
     </div>
   </div>
 <div class="wrapper">
-  <h2>HOW DOES IT WORK?</h2>
+  <h2 id="process">HOW DOES IT WORK?</h2>
 
   <div class="flex_planet">
     <div class="line"></div>
@@ -93,7 +95,7 @@
   <img class="cosmonaut" src="images/img_astronaut.png" alt="cosmonaut">
 <div class="break"></div>
   <div class="trip_videoblog">
-    <h2>JOIN THE VIRTUAL TRIP TO OUR STATION</h2>
+    <h2 id="our_station">JOIN THE VIRTUAL TRIP TO OUR STATION</h2>
     <div class="video">
       <iframe id="player" width="960" height="600"
               src="http://www.youtube.com/embed/NtrVwX1ncqk?enablejsapi=1&origin=http://example.com"
