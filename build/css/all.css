@@ -156,10 +156,6 @@ header {
   background-color: #9a9a9a;
 }
 
-.line:hover {
-  background-color: white;
-}
-
 .flex_planet {
   position: relative;
   display: flex;
@@ -197,4 +193,8 @@ header {
   height: 30px;
   background-color: #9a9a9a;
   border-radius: 50%;
+  transition: 0.5s;
+}
+.ellipse:hover {
+  background-color: white;
 }
