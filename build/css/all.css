@@ -232,6 +232,9 @@ div.category_item:last-child {
 }
 
 .info_button {
+  padding-bottom: 6px;
+}
+.break {
   margin-bottom: 274px;
 }
 .cosmonaut {

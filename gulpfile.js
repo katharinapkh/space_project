@@ -24,11 +24,11 @@ function scripts() {
         .pipe(browserSync.stream());
 }
 
-/*gulp.task('default', () =>
-    gulp.src('./images/!*')
+gulp.task('default', () =>
+    gulp.src('./images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('build/images'))
-);*/
+);
 
 function watch() {
     browserSync.init({
