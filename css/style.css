@@ -1,0 +1,200 @@
+body {
+  box-sizing: border-box;
+  background: url("../images/stars.png") repeat;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+header {
+  background: url("../images/IMG_BG.png") no-repeat 0 0;
+  background-size: contain;
+  min-height: 920px;
+  padding: 21px 10px;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+.nav_bar a {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.nav_bar a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.nav_bar {
+  float: right;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.title h1 {
+  font-size: 52px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 41px;
+  margin-top: 310px;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 16px;
+  margin-bottom: 300px;
+}
+
+.title span {
+  display: block;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 10px;
+  margin-bottom: 33px;
+}
+
+.info_block {
+  background: url("../images/img_moon.png") no-repeat -290px 0;
+  background-size: contain;
+  min-height: 960px;
+}
+
+.info_block h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 8px;
+  margin-bottom: 100px;
+}
+
+.flex_icons {
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 150px;
+}
+
+.flex_item {
+  display: flex;
+  flex-basis: 9em;
+  text-align: center;
+  flex-direction: column;
+  justify-content: inherit;
+}
+
+.flex_item p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.76;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.stripe {
+  padding: 30px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 169px;
+}
+
+.stripe h3 {
+  font-weight: normal;
+  line-height: 1.76;
+  letter-spacing: 6px;
+  display: inline-block;
+  margin-right: 160px;
+}
+
+.stripe button {
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: 10px;
+  color: #ffffff;
+  outline: none;
+}
+.stripe button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.line {
+  position: absolute;
+  top: 15px;
+  z-index: -1;
+  min-height: 1px;
+  width: 100%;
+  background-color: #9a9a9a;
+}
+
+.line:hover {
+  background-color: white;
+}
+
+.flex_planet {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.flex_planet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.76;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.flex_planet h3 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: 2px;
+}
+
+.category_item {
+  display: flex;
+  flex-basis: 14em;
+  text-align: start;
+  flex-direction: column;
+  justify-content: inherit;
+  align-items: center;
+}
+
+.ellipse {
+  width: 30px;
+  height: 30px;
+  background-color: #9a9a9a;
+  border-radius: 50%;
+}
