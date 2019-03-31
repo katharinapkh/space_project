@@ -89,6 +89,13 @@ header {
   margin-bottom: 33px;
 }
 
+.scroll {
+  transition: 0.5s;
+}
+.scroll:hover {
+  color: #9a9a9a;
+}
+
 .info_block {
   background: url("../images/img_moon.png") no-repeat -16em 0;
   min-height: 1060px;
@@ -251,4 +258,8 @@ div.category_item:last-child {
 
 .trip_videoblog h2 {
 width: 50%;
+}
+
+.video {
+  text-align: center;
 }
