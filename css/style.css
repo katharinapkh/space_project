@@ -340,3 +340,55 @@ input[name="message"] {
 .form_button {
   margin-bottom: 130px;
 }
+
+.footer {
+  border-top: 1px solid white;
+  padding: 30px 135px;
+  text-align: center;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.icons_social a {
+  margin-left: 86px;
+}
+
+.fist_row {
+  margin-bottom: 12px;
+}
+.second_row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer span {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.top {
+  position: absolute;
+  transition: 0.5s;
+  background-color: rgba(154, 154, 154, 0.47);
+  border-radius: 5px;
+  padding: 7px 9px 5px 9px;
+  right: 3em;
+  bottom: 12em;
+
+}
+.top:hover {
+ transform: rotate(180deg);
+}
