@@ -1,0 +1,99 @@
+.input {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 1em;
+  max-width: 350px;
+  width: calc(100% - 2em);
+  vertical-align: top;
+}
+
+.field {
+  position: relative;
+  display: block;
+  float: right;
+  padding: 0.8em;
+  width: 60%;
+  border: none;
+  border-radius: 0;
+  background: #ffffff;
+  color: #9a9a9a;
+  -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.field:focus {
+  outline: none;
+}
+
+.input_label {
+  display: inline-block;
+  float: right;
+  padding: 0 1em;
+  width: 40%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 70.25%;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.input_content {
+  position: relative;
+  display: block;
+  padding: 1.6em 0;
+  width: 100%;
+}
+
+.graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: none;
+}
+
+.liner {
+  overflow: hidden;
+  padding-top: 1em;
+}
+
+.field_liner {
+  padding: 0.5em 0 0.25em;
+  width: 100%;
+  background: transparent;
+  color: #9da8b2;
+  font-size: 1.25em;
+}
+
+.input_liner {
+  position: absolute;
+  top: 0.95em;
+  font-size: 0.85em;
+  left: 0;
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  pointer-events: none;
+  transform-origin: 0 0;
+  transition: transform 0.2s 0.15s, color 1s;
+  transition-timing-function: ease-out;
+}
+
+.graphic_liner {
+  stroke: #ffffff;
+  pointer-events: none;
+  transition: transform 0.7s, stroke 0.7s;
+  transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+}
+
+.field_liner:focus + .input_liner,
+.input--filled .input_liner {
+  color: #9a9a9a;
+  transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+}
+
+.field_liner:focus ~ .graphic_liner,
+.input--filled .graphic_liner {
+  stroke: #9a9a9a;
+  transform: translate3d(-66.6%, 0, 0);
+}

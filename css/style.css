@@ -290,7 +290,7 @@ div.category_item:last-child {
 
 .info_block .galaxy {
   position: absolute;
-  opacity: 0.8;
+  opacity: 0.9;
   top: -15em;
   left: -35em;
   z-index: -2;
@@ -337,22 +337,6 @@ form {
   color: white;
   padding: 10px;
   border: none;
-  border-bottom: 1px solid white;
-  margin-bottom: 40px;
-
-}
-
-input[placeholder] {
-  color: white;
-  opacity: 0.7;
-}
-
-input:focus {
-  opacity: 1;
-}
-
-input[name="message"] {
-  margin-bottom: 90px;
 }
 
 .form_button {
