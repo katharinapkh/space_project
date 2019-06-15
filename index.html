@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/form.css">
   <link rel="icon" href="images/Shuttle.ico">
+  <link rel="stylesheet" href="css/media.css">
   <title>Space Project</title>
   <script src="js/script.js"></script>
 </head>
@@ -14,12 +15,26 @@
 <header>
   <div class="wrapper">
     <img src="images/LOGO.svg" alt="logo" id="home">
+
     <div class="nav_bar">
       <a href="#about" class="scrollto"><h3>about</h3></a>
       <a href="#process" class="scrollto"><h3>process</h3></a>
       <a href="#our_station" class="scrollto"><h3>our station</h3></a>
       <a href="#book_trip" class="scrollto"><h3>book a trip</h3></a>
     </div>
+
+    <div class="mobile_menu">
+      <label for="menu-toggle">
+        <img src="images/iconfinder_menu-alt_134216.svg" alt="menu">
+      </label><input id="menu-toggle" type="checkbox" hidden>
+      <nav class="dropdown_menu">
+        <a href="#about" class="scrollto"><h3>about</h3></a>
+        <a href="#process" class="scrollto"><h3>process</h3></a>
+        <a href="#our_station" class="scrollto"><h3>our station</h3></a>
+        <a href="#book_trip" class="scrollto"><h3>book a trip</h3></a>
+      </nav>
+    </div>
+
     <div class="title">
       <h1>SPACE ODYSSEY</h1>
       <p>your best ever trip</p>

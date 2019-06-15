@@ -42,10 +42,17 @@ header {
   margin: 0 auto;
 }
 
+#home {
+  margin-right: 6em;
+}
 .nav_bar a {
   display: inline-block;
   margin-right: 40px;
   transition: 0.5s;
+}
+
+.mobile_menu {
+  display: none;
 }
 
 .nav_bar a:hover {
